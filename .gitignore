@@ -1,0 +1,11 @@
+.autosave/
+printer_usage.json
+.wtest_*
+__pycache__/
+*.py[cod]
+.venv/
+build/
+dist/
+*.exe
+*.exe.bak
+*.zip

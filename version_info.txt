@@ -1,0 +1,39 @@
+# -*- mode: python ; coding: utf-8 -*-
+# 给 exe 打版本信息：右下角「属性 → 详细信息」能看到名字、版本、作者。
+# 空白版本的单文件 exe 在两件事上吃亏 ——
+#   ① 对方想知道「我这台是哪一版」，没版本号只能靠文件日期猜；
+#   ② 没有公司/描述信息的 exe 更容易被杀软当可疑样本。
+# 注意：这个文件只能有一个表达式（PyInstaller 用 ast 解析），
+# 上面这些只能是注释，不能写成字符串（docstring 也会让它解析失败）。
+VSVersionInfo(
+    ffi=FixedFileInfo(
+        filevers=(1, 12, 0, 0),
+        prodvers=(1, 12, 0, 0),
+        mask=0x3f,
+        flags=0x0,
+        OS=0x40004,
+        fileType=0x1,
+        subtype=0x0,
+        date=(0, 0),
+    ),
+    kids=[
+        StringFileInfo(
+            [
+                StringTable(
+                    "080404B0",
+                    [
+                        StringStruct("CompanyName", "By Yaoshi_Yellow"),
+                        StringStruct("FileDescription", "水洗标签编辑器 - 服装水洗标打印"),
+                        StringStruct("FileVersion", "1.12.0.0"),
+                        StringStruct("InternalName", "水洗标签编辑器"),
+                        StringStruct("LegalCopyright", "Copyright (C) 2026 By Yaoshi_Yellow"),
+                        StringStruct("OriginalFilename", "水洗标签编辑器.exe"),
+                        StringStruct("ProductName", "水洗标签编辑器"),
+                        StringStruct("ProductVersion", "1.12.0.0"),
+                    ],
+                )
+            ]
+        ),
+        VarFileInfo([VarStruct("Translation", [2052, 1200])]),
+    ],
+)

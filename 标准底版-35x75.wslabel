@@ -1,0 +1,114 @@
+{
+  "name": "水洗标",
+  "paper": {
+    "w": 35.0,
+    "h": 75.0,
+    "gap": 2.0,
+    "dpi": 203
+  },
+  "printer": "",
+  "print_mode": "auto",
+  "off_x_mm": 0.0,
+  "off_y_mm": 0.0,
+  "direction": 0,
+  "left_mm": 3.1,
+  "right_mm": 3.1,
+  "body_indent_mm": 2.64,
+  "divider": {
+    "on": true,
+    "gap_mm": 2.65,
+    "w_mm": 20.0,
+    "h_mm": 0.2
+  },
+  "start_y_mm": 25.8,
+  "font_dots": 18,
+  "line_gap": 10,
+  "title": "号型: 175/84A（L）",
+  "fabric_head": "",
+  "fabrics": [
+    "成分:  38.6%棉 ",
+    "            51.1%涤纶",
+    "            10.3%氨纶"
+  ],
+  "origin": "",
+  "text_align": "left",
+  "date_on": true,
+  "date_month": 0,
+  "date_day": 0,
+  "date_font": 12,
+  "date_lock": "",
+  "font_file": "",
+  "brand": {
+    "on": false,
+    "text": ""
+  },
+  "top_rule": {
+    "on": false,
+    "w_mm": 5.0,
+    "h_mm": 0.4,
+    "y_mm": 2.0
+  },
+  "bottom": {
+    "on": true,
+    "title": "洗涤方式",
+    "subtitle": "CARE INSTRUCTION",
+    "title_font": 19,
+    "sub_font": 14,
+    "body_font": 17,
+    "caution": [
+      "注意事项: 按衣物颜色深浅",
+      "分开洗涤，防止染色。",
+      "按衣物材质用不同的洗涤剂",
+      "和清洗方式。"
+    ],
+    "icons": [
+      "assets/icons/icon1.png",
+      "assets/icons/icon2.png",
+      "assets/icons/icon3.png",
+      "assets/icons/icon4.png",
+      "assets/icons/icon5.png"
+    ],
+    "icon_w_dot": 0,
+    "icon_gap_ratio": 0.064,
+    "icon_th": 170,
+    "icon_h_max_mm": 0,
+    "icon_slot_mm": 5.0,
+    "icon_slot_gap_mm": 0.6,
+    "icon_row_gap_mm": 1.0,
+    "icon_max_cols": 5,
+    "gap_mm": 0.82,
+    "gap2_mm": 2.5,
+    "line_gap_mm": 1.07,
+    "gap_above_mm": 4.85,
+    "margin_mm": 5.0,
+    "footer": "",
+    "footer_font": 16,
+    "align": "flow",
+    "icon_gap_mm": 2.4
+  },
+  "table": {
+    "on": false,
+    "caption": "充绒克数(g)",
+    "caption_font": 16,
+    "caption_gap_mm": 0.5,
+    "gap_top_mm": 2.0,
+    "to_bottom_mm": 4.0,
+    "gap_bottom_mm": 2.0,
+    "row_h_mm": 4.0,
+    "border_dot": 2,
+    "rows": [
+      {
+        "cols": 4,
+        "font": 16,
+        "cells": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  "fabric_keep_blank": false,
+  "auto_paper": true
+}
